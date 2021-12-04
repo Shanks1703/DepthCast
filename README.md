@@ -10,9 +10,8 @@ Import the built .unitypackage directly in your project.
 
 To shoot a ray simply use :
 ``` csharp
-Vector2 mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
 DepthCastHit hit;
-DepthCast.Cast(mousePos, out hit);
+DepthCast.Cast(Input.mousePosition, out hit);
 ```
 
 DepthCastHit contains informations about hit point and normal.
