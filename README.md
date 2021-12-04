@@ -1,6 +1,6 @@
 # DepthCast
 
-DepthCast allows for raycasting using depth map. It allows up to 256 ray calls per frame within a single pass. It is useful for raycasting on skinned meshes or tesselated surfaces. DepthCast ray can only be shot from the main camera position.
+DepthCast allows for raycasting using depth map. It is useful for raycasting on skinned meshes or tesselated surfaces. DepthCast ray can only be shot from the main camera position.
 
 ## Installation
 
