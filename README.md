@@ -14,7 +14,7 @@ DepthCastHit hit;
 DepthCast.Cast(Input.mousePosition, out hit);
 ```
 
-DepthCastHit contains informations about hit point and normal.
+DepthCastHit contains informations about hit point.
 
 ## Compatibility
 
