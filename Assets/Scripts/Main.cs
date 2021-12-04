@@ -20,7 +20,7 @@ public class Main : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             DepthCastHit hit;
-            if (DepthCast.Cast(Input.mousePosition, out hit))
+            if (DepthCast.RayCast(Input.mousePosition, out hit))
                 positions.Add(hit.position);
         }
 

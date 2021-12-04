@@ -8,7 +8,7 @@ public static class DepthCast
     private static RenderTexture depthMap = null;
     private static Material depthCast = null;
 
-    public static bool Cast(Vector2 screenPosition, out DepthCastHit hitInfo)
+    public static bool RayCast(Vector2 screenPosition, out DepthCastHit hitInfo)
     {
         if (depthCast == null)
             depthCast = new Material(Shader.Find("Unlit/DepthCast"));
